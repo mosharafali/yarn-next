@@ -6,13 +6,12 @@
   "author": "Colby Fayock <hello@colbyfayock.com>",
   "scripts": {
     "build": "next build && next export",
-    "wpe-build": "npm run build",
     "dev": "next dev",
     "format": "yarn lint --fix",
     "format:no-path": "yarn lint:no-path --fix",
     "lint": "eslint .",
     "lint:no-path": "eslint",
-    "start": "next start -p ${PORT:=3000}"
+    "start": "next start"
   },
   "husky": {
     "hooks": {
